@@ -182,7 +182,7 @@ p {
     background-size: cover;
     -moz-background-size: cover;
     margin-top: 75px;
-    height: calc(100vh - 83px);
+    height: calc(100vh - 75px);
     text-align: center;
 }
 
@@ -205,8 +205,8 @@ p {
     align-items: center; */
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 40%;
+    transform: translate(-40%, -50%);
 }
 
 .text_main_picture h1 {
@@ -232,9 +232,10 @@ p {
 }
 
 .mouse {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .pe-7s-mouse {
