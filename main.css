@@ -181,8 +181,9 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     -moz-background-size: cover;
-    padding: 79px 0 15px 0;
-    height: calc(100vh-8px);
+    margin-top: 75px;
+    padding-bottom: 10px;
+    height: calc(100vh - 8px);
     float: bottom;
     text-align: center;
 }
