@@ -180,7 +180,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -moz-background-size: cover;
+    -moz-background-size: auto;
     margin-top: 75px;
     height: calc(100vh - 75px);
     text-align: center;
@@ -206,7 +206,7 @@ p {
     position: absolute;
     top: 50%;
     left: 40%;
-    transform: translate(-40%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .text_main_picture h1 {
@@ -233,7 +233,7 @@ p {
 
 .mouse {
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, 0);
 }
