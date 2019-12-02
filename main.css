@@ -50,6 +50,8 @@ h1 {
     font-family: "BigNoodle_Titling", sans-serif;
     font-weight: lighter;
     letter-spacing: 6.5px;
+    margin-right: -6.5px;
+    padding-left: 6.5px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -80,6 +82,8 @@ h3 {
     font-family: "BigNoodle_Titling", sans-serif;
     font-weight: lighter;
     letter-spacing: 6.5px;
+    margin-right: -6.5px;
+    padding-left: 6.5px;
 }
 
 a {
