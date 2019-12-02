@@ -44,7 +44,7 @@ body {
     box-sizing: border-box;
 }
 
-h1, .likeH1 {
+h1 {
     font-size: 72px;
     color: #d6d5d5;
     font-family: "BigNoodle_Titling", sans-serif;
@@ -53,13 +53,13 @@ h1, .likeH1 {
 }
 
 @media only screen and (max-width: 900px) {
-    h1, .likeH1 {
+    h1 {
         font-size: 60px;
     }
 }
 
 @media only screen and (max-width: 501px) {
-    h1, .likeH1 {
+    h1 {
         font-size: 40px;
     }
 }
@@ -211,8 +211,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.text_main_picture h1, 
-.text_main_picture .likeH1 {
+.text_main_picture h1 {
     margin-bottom: 10px;
     background: rgba(0, 0, 0, 0.7);
 }
