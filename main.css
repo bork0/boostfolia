@@ -145,7 +145,7 @@ p {
     left: 0;
     right: 0;
     background-color: #ffffff;
-    z-index: 2;
+    z-index: 999;
 }
 
 .menu_bar .container_width {
@@ -211,7 +211,8 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.text_main_picture h1 {
+.text_main_picture h1, 
+.text_main_picture .likeH1 {
     margin-bottom: 10px;
     background: rgba(0, 0, 0, 0.7);
 }
